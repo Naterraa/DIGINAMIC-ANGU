@@ -1,0 +1,36 @@
+.user-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+}
+
+.user-card h3 {
+  margin: 0 0 1rem 0;
+  color: #1f2937;
+  font-size: 1.5rem;
+}
+
+.user-card p {
+  margin: 0.5rem 0;
+  color: #4b5563;
+}
+
+.status {
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-top: 1rem !important;
+}
+
+.status.major {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status.minor {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
