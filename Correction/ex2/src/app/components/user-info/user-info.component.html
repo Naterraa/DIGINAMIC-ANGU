@@ -1,9 +1,0 @@
-<div class="user-card">
-  <h3>Informations utilisateur</h3>
-  <p>Nom: {{ name() }}</p>
-  <p>Âge: {{ age() }} ans</p>
-  <p class="status" [class.major]="isMajor()" [class.minor]="!isMajor()">
-    Statut: {{ isMajor() ? 'Majeur' : 'Mineur' }}
-  </p>
-</div>
-
